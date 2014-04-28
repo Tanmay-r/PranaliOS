@@ -1,0 +1,38 @@
+OS workbench for instructional purpose
+
+README 
+Tanmay Randhavane 110050010 
+Mayank Meghawanshi 110050012 
+Mayank Dehgal 110050024 
+Aditya Raj 110050025 
+Shivam H Prasad 110050041 
+Alok Yadav 110050043 
+
+
+
+To Compile -
+    ./configure CC=gcc-4.4.3
+    make
+    ./src/guestos
+
+To Make test file/processes
+
+    g++-4.4.3 -static -m32 file.cpp
+
+
+Syscalls Information
+
+open_file - 402 -- filepath, mode
+close_file - 403 -- fileid
+read_file - 404 -- fileid, buffer, size
+write_file - 405 -- fileid, buffer, size
+seek_file - 406 -- fileid, size
+tell_file - 407 -- fileid
+create_directory - 408 -- filepath
+remove_file - 409 -- filepath
+change_directory - 410 -- directory path
+change_permission - 411 -- filepath, permission number
+
+
+
+
